@@ -24,7 +24,7 @@
  */
 ?>
 <div class="row-content">
-  <?php print $fields['field_picture']->content; ?>
+  <?php print $fields['field_image']->content; ?>
   <?php print $fields['title']->content; ?>
   <?php print $fields['body']->content; ?>
 </div>
