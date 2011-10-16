@@ -25,7 +25,7 @@
 ?>
 <div class="rbb-content">
 	<div class="rbb-content-left">
-		<?php print $fields['field_picture']->content; ?>
+		<?php print $fields['field_image']->content; ?>
 	</div>
 	<div class="rbb-content-right">
 		<?php print $fields['body']->content; ?>

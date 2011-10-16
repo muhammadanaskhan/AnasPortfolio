@@ -25,13 +25,13 @@
 ?>
 <div class="rsb-content">
 	<div class="rsb-content-left">
-		<?php print $fields['field_picture']->content; ?>
+		<?php print $fields['field_image']->content; ?>
 	</div>
 	<div class="rsb-content-right">
 		<div><?php print $fields['title']->content; ?></div>
 		<div><?php print $fields['body']->content; ?></div>
 		<div><?php print $fields['created']->content; ?></div>
-		<div><?php print $fields['field_category']->content; ?></div>
+		<div><?php print $fields['field_tags']->content; ?></div>
 	</div>
 	&nbsp;
 </div>
