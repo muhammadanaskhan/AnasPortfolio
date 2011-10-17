@@ -611,9 +611,9 @@ ul.social-bookmarks li.delicious a { background:url('images/social-media-delicio
 
 .rbb-content { border-bottom:1px dashed #999; margin-bottom:20px; min-height:100px; }
 
-.rbb-content-left { float:left; width:100px; margin-right:10px; }
+.rbb-content-left { float:left; width:90px; margin-right:5px; }
 
-.rbb-content-right { float:left; width:128px; }
+.rbb-content-right { float:left; width:143px; text-align:justify; }
 
 /* 
  * View: Highlights
