@@ -59,15 +59,56 @@
             <div class="content">
                 
                 <!--slider-item content-->
-                <div style="float:left; padding:0 30px 0 0;">
-                <img height="250px" class="masked" src="<?php print base_path() . drupal_get_path('theme', 'corporateclean') ;?>/mockup/slide-1.jpg"/>
+                <div class="left-pane">
+                	<img height="250px" class="masked" src="<?php print base_path() . drupal_get_path('theme', 'corporateclean') ;?>/mockup/drupal.jpg"/>
                 </div>
-                <h2>Sample product name</h2>
-                <strong>General</strong><br/>
-                <em>Client name</em><br/>
-                <br/>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-                <div style="display:block; padding:30px 0 10px 0;"><a class="more" href="#">Tell me more</a></div>
+                <div class="right-pane">
+                	<div>
+		                <h2>Why Drupal?</h2>
+		                <strong>Key Features</strong>
+	              	</div>
+	                <div class="pane-item">
+	                	<ul>
+	                		<li>Leading CMS</li>
+	                		<li>User Management</li>
+	                		<li>E-Commerce</li>
+	                		<li>Security</li>
+	                	</ul>
+	                </div>
+	                <div class="pane-item">
+	                	<ul>
+	                		<li>Site Search</li>
+	                		<li>Poll</li>
+	                		<li>Syndication</li>
+	                		<li>News Aggregator</li>
+	                	</ul>
+	                </div>
+	                <div class="pane-item">
+	                	<ul>
+	                		<li>Blogs</li>
+	                		<li>Forums</li>
+	                		<li>Themes</li>
+	                		<li>SEO</li>
+	                	</ul>
+	                </div>
+	                <div><strong>Example Sites</strong></div>
+	                <div class="pane-item">
+	                	<ul>
+	                		<li>Corporate Site</li>
+	                		<li>News Portal</li>
+	                		<li>Video Portal</li>
+	                		<li>Music Portal</li>
+	                	</ul>
+	                </div>
+	                <div class="pane-item">
+	                	<ul>
+	                		<li>Photography Site</li>
+	                		<li>Community Site</li>
+	                		<li>Links Site</li>
+	                		<li>Blog Site</li>
+	                	</ul>
+	                </div>
+              	</div>
                 <!--EOF:slider-item content-->
                 
             </div>
@@ -82,24 +123,11 @@
                 <div style="float:right; padding:0 0 0 30px;">
                 <img height="250px" class="masked" src="<?php print base_path() . drupal_get_path('theme', 'corporateclean') ;?>/mockup/slide-2.jpg"/>
                 </div>
-                <h2>Sample service name</h2>
-                <strong>General</strong><br/>
-                <em>Client name</em><br/>
+                <h2>Services</h2>
+                <strong>What We Provide?</strong><br/>
                 <br/>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                Custom Content Types, Custom Node Templates, Custom Taxonomy Term Pages, Advanced Views Theming, Views Integrated Sliders, Custom Search Templates, Search Engine Optimization Consultancy, XHTML Tableless Layout and much more...
                 <div style="display:block; padding:30px 0 10px 0;"><a class="more" href="#">Tell me more</a></div>
-                <!--EOF:slider-item content-->
-            
-            </div>
-        </div>
-        <!--EOF:slider-item-->
-        
-        <!--slider-item-->
-        <div class="slider-item">
-            <div class="content">
-                
-                <!--slider-item content-->
-                <img height="250px" class="masked" src="<?php print base_path() . drupal_get_path('theme', 'corporateclean') ;?>/mockup/slide-3.jpg"/>
                 <!--EOF:slider-item content-->
             
             </div>
@@ -125,7 +153,6 @@
     <div id="slider-controls-wrapper">
         <div id="slider-controls">
             <ul id="slider-navigation">
-                <li><a href="#"></a></li>
                 <li><a href="#"></a></li>
                 <li><a href="#"></a></li>
                 <li><a href="#"></a></li>

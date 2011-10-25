@@ -444,6 +444,14 @@ div.messages.status a, div.messages.error a, div.messages.warning a { color:#fff
 
 .slider-item .content { width:960px; margin:0 auto; padding:30px 0 0 0; position:relative; }
 
+.slider-item .content .left-pane { float:left; padding:0 30px 0 0; }
+
+.slider-item .content .right-pane { float:left; width:420px; }
+
+.slider-item .content .right-pane .pane-item { float:left; width:140px; font-size:1em; line-height:120%; border:0px solid red; }
+
+.slider-item .content .right-pane .pane-item ul { padding-left:20px }
+
 .slider-item a { outline:none; }
 
 #slider-controls-wrapper { width:960px; margin:0 auto; padding:20px 0; display:block; } 
@@ -633,3 +641,37 @@ ul.social-bookmarks li.delicious a { background:url('images/social-media-delicio
 #block-views-highlights-block .content .view-content .views-row .field-content-title { display:block; text-align:center; }
 
 #block-views-highlights-block .content .view-content .views-row .field-content-body { text-align:justify; font-size:0.8em; line-height:120%; }
+
+/* 
+ * View: Books Gallery
+ * Display: Page
+ */
+
+.view-books-gallery .view-content table { border:0px none; }
+
+.view-books-gallery .view-content table td { border:0px none; }
+
+.view-books-gallery .view-content table tr { height:300px; vertical-align:top; }
+
+.view-books-gallery .view-content .views-view-grid .field-content-image { text-align:center; }
+
+.view-books-gallery .view-content .views-view-grid .views-field-title { text-align:center; }
+
+.view-books-gallery .view-content .views-view-grid .field-content-pages { text-align:center; }
+
+/* 
+ * View: Laptops Gallery
+ * Display: Page
+ */
+ 
+.view-laptops-gallery .view-content {	background:none repeat scroll 0 0 #FFFFFF; border:1px solid #FFFFFF; border-radius:5px 5px 5px 5px;	box-shadow:0 2px 6px #EFEFEF inset; }
+
+.view-laptops-gallery .view-content table { border:0px none; }
+
+.view-laptops-gallery .view-content table td { border:0px none; }
+
+.view-laptops-gallery .view-content .views-view-grid .views-field { text-align:left; }
+
+.view-laptops-gallery .view-content .views-view-grid .views-field .field-content { text-align:left; }
+
+.view-laptops-gallery .view-content .views-view-grid .views-field-field-rating .field-content .starrating { display:inline-block; }
